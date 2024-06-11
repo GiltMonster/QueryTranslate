@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgb(167, 19, 28);
+  background: linear-gradient(156deg, rgba(167, 19, 28, 1) 0%, rgba(92, 9, 121, 1) 51%, rgba(91, 0, 255, 1) 100%);
+
+  .navbar-logo {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  .navbar-menu {
+    display: flex;
+
+    .nav-item {
+      margin: 0 10px;
+      color: #fff;
+      list-style: none;
+      text-decoration: none;
+      font-size: 1.5rem;
+
+      .nav-link {
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
