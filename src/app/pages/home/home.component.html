@@ -1,1 +1,16 @@
-<p>home works!</p>
+<div class="content">
+  <div class="form-group">
+    <h1>Question:</h1>
+    <textarea id="question" class="question" placeholder="Enter your question" [(ngModel)]="userQuestion"></textarea>
+  </div>
+</div>
+@if (userQuestion) {
+  <button type="submit" class="btn btn-color btn-send">Send your Question</button>
+}
+
+<div class="content">
+  <div class="form-group">
+    <h1>Answer:</h1>
+    <textarea class="answer" placeholder="Answer" disabled="true">{{userQuestion}}</textarea>
+  </div>
+</div>

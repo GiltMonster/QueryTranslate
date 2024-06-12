@@ -1,0 +1,20 @@
+footer {
+  background: rgb(55, 9, 121);
+  background: linear-gradient(156deg, #cb00ff 0%, #370979 100%);
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+
+  .text-container {
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  a {
+    color: #fff;
+  }
+}
