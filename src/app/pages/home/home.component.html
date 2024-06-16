@@ -5,12 +5,14 @@
   </div>
 </div>
 @if (userQuestion) {
-  <button type="submit" class="btn btn-color btn-send">Send your Question</button>
+<div class="content-btn">
+  <button type="submit" class="btn btn-color btn-send" (click)="sendQuestion()">Send your Question</button>
+</div>
 }
 
 <div class="content">
   <div class="form-group">
     <h1>Answer:</h1>
-    <textarea class="answer" placeholder="Answer" disabled="true">{{userQuestion}}</textarea>
+    <textarea class="answer" placeholder="Answer" disabled="true">{{answer}}</textarea>
   </div>
 </div>

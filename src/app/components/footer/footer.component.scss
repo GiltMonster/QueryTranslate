@@ -1,10 +1,9 @@
 footer {
-  background: rgb(55, 9, 121);
-  background: linear-gradient(156deg, #cb00ff 0%, #370979 100%);
-  color: #fff;
+  background: #0b9cfe;
+  background: linear-gradient(240deg, #0b9cfe 0%, #63c2f5 25%, #c6d3f2 50%, #ffefd9 75%, #f8cde3 100%);
+  color: #000000;
   text-align: center;
-  padding: 5px;
-  bottom: 0;
+  padding: 30px 0;
   width: 100%;
   font-size: 12px;
 
@@ -15,6 +14,6 @@ footer {
   }
 
   a {
-    color: #fff;
+    color: #000000;
   }
 }
